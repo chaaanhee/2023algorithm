@@ -15,9 +15,11 @@ public class 연속된자연수의합구하기 {
 		int count = 1;
 		int start_index = 1;
 		int end_index = 1;
+		// 책은 sum = 1로 지정한 이유..
 		int sum = 0;
 		
 		while(end_index != N) {
+			// end_index가 이동하는것부터 !
 			if(sum < N) {
 				sum = sum + end_index;
 				end_index++;
