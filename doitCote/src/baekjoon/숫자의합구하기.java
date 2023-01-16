@@ -18,6 +18,5 @@ public class 숫자의합구하기 {
 			sum += (charArr[i] - 48);
 		}
 		System.out.println(sum);
-
 	}
 }
