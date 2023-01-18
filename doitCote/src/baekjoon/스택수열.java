@@ -38,7 +38,7 @@ public class 스택수열 {
 				if(n > su) { // 이 경우는 아예 식이 이뤄지지않음.
 					System.out.println("NO");
 					result = false; // 아래 bf.toString이 출력되지 않도록 false값으로 변경
-					break;
+					break; // 브레이크는 반복문을 빠져나가는 문, if문이 아니라 for문을 나감
 				}else {  // pop으로 맨 위에 숫자를 뺐으니  "-" 표시
 					bf.append("-\n");
 				}
