@@ -21,7 +21,7 @@ public class 스택수열 {
 		boolean result = true; 
 		
 		for(int i = 0; i < A.length; i++) {
-			//num과 su를 비교하여 결과값 도출
+			//num과 su를 비교하여 결과값 도출한다
 			int su = A[i];
 			if(num <= su) { // 값이 작으면 pop이 되지않음으로 
 				while(num <= su) {
